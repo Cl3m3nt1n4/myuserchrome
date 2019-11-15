@@ -8,10 +8,11 @@ This is my modified version from https://github.com/turing753/myuserchrome.
 This version aims to be a bit more Microsoft Windows friendly while still perseving as much as possible the original look. 
 
 ![alt text](https://raw.githubusercontent.com/Cl3m3nt1n4/myuserchrome/master/readme%20content/print0.png)
+
 ![alt text](https://raw.githubusercontent.com/Cl3m3nt1n4/myuserchrome/master/readme%20content/print1.png)
 
 
-The modifications madde include
+The modifications made include:
 
 Whats changed:
 
