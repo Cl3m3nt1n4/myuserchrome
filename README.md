@@ -3,37 +3,36 @@ minimal userChrome.css Windows frendly version
 
 Hi everyone, 
 
-This is my modified version from https://github.com/turing753/myuserchrome. 
+This is my modified version of https://github.com/turing753/myuserchrome minimal user minimal userChrome.css.
 
-This version aims to be a bit more Microsoft Windows friendly while still perseving as much as possible the original look. 
+The objective of this version is to be a bit more Microsoft Windows friendly while still perseving as much as possible the original look. 
 
 ![alt text](https://raw.githubusercontent.com/Cl3m3nt1n4/myuserchrome/master/readme%20content/print0.png)
 
 ![alt text](https://raw.githubusercontent.com/Cl3m3nt1n4/myuserchrome/master/readme%20content/print1.png)
 
 
-The modifications made include:
+Some of modifications/ideas of this version are:
 
-Whats changed:
+What is changed:
 
-+ Changed Font Weight.
++ Added thin scroll bar instead of the originally being hidden.
 
-+ Added a thin scroll bar instead of the original hidden one.
++ Change some padding to make it look more natural on windows. 
 
-+ Change some padding to make it as small as possible footprint but having a normal looking size on Windows. 
++ Changed Font Family in order to get the bold monospace look like the original. Changed font size as well
 
-+ Changed Font Size to be smaller.
++ Inverted the URL Barl / Tab bar order due the Windows minimize/maximize/close being not at the corner of the program.
 
-+ Inverted the URL Barl / Tab bar order due the Windows minimize/maximize/close being not at the corner of the program. 
++ Tabs start now closer to the top right corner and have different height and width rules.
 
 Problems to be fixed: 
 
-+ When on windowed mode at the top left appear a white
- line. 
-+ Font doesn't have a bold look like the original. 
-
-+ Some padding doesn't look natural on Windows still. 
++ When on windowed mode at the top left appears a white line. 
 
 Possible future changes: 
 
-+ Removing http/https from the link (making just a lock) to look more minimal.
++ Removing http/https to make links loke more simple (similar to Chrome aproach).
+
+
+

@@ -87,9 +87,9 @@ toolbar,
 tab,
 tree,
 .tree-rows {
-    font-family: 'Input Condensed', monospace !important;
-    font-size: 10pt !important;
-    font-weight: normal;
+    font-family: 'Consolas', monospace !important;
+    font-size: 11pt !important;
+    font-weight: bold;
     font-style: normal !important;
     -moz-appearance: none !important;
     color: var(--color7) !important;
@@ -134,8 +134,8 @@ tree,
 .urlbarView:not(.megabar) {
     box-shadow: none !important;
     background-color: #111111 !important;
-    font-family: 'Input Condensed', monospace !important;
-    font-size: 10pt !important;
+    font-family: 'Consolas', monospace !important;
+    font-size: 11pt !important;
 }
 
 .urlbarView-favicon {
@@ -157,20 +157,23 @@ tree,
 .customization-target {
     padding: 0px !important;   
 }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+.tabbrowser-tab[first-visible-tab]::before{
+  content: "";
+  display: -moz-box;
+  border-left: -1px !important;
+  margin: 0 !important;
+  opacity: 0.3;
+ }
+.tabbrowser-tab[fadein]:not([pinned]) {
+    max-width: 180px !important;
+ }
+#tabbrowser-tabs {
+  --tab-min-height: 24px !important;
+  margin-left: 0px !important;
+  height: 27px !important;
+ }
+
+
+
     
