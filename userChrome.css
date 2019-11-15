@@ -1,6 +1,3 @@
-/* Remember to change your username */
-/* @import url('file:///home/USERNAME/.cache/wal/colors.css'); */
-
 window#main-window {
     --toolbar-bgcolor: #111111 !important;
     --lwt-accent-color: #111111 !important;
@@ -91,8 +88,8 @@ tab,
 tree,
 .tree-rows {
     font-family: 'Input Condensed', monospace !important;
-    font-size: 14pt !important;
-    font-weight: bold;
+    font-size: 10pt !important;
+    font-weight: normal;
     font-style: normal !important;
     -moz-appearance: none !important;
     color: var(--color7) !important;
@@ -113,10 +110,6 @@ tree,
   color: #111111 !important;
 }
 
-/* This moves the tabs under the URL bar */
-#titlebar {
-    -moz-box-ordinal-group: 3 !important;
-  }
 .tabbrowser-tab {
     /* transition: color 0.25s !important; */
     text-align: center !important;
@@ -142,7 +135,7 @@ tree,
     box-shadow: none !important;
     background-color: #111111 !important;
     font-family: 'Input Condensed', monospace !important;
-    font-size: 13pt !important;
+    font-size: 10pt !important;
 }
 
 .urlbarView-favicon {
@@ -162,7 +155,7 @@ tree,
 }   
     
 .customization-target {
-    padding: 18px !important;   
+    padding: 0px !important;   
 }
     
     
