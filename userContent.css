@@ -6,8 +6,8 @@
     }
   }
   
-/* Thin Global Scrollbar */
+/* Scrollbar */
 
-:root{ scrollbar-color: rgb(141,61,147) rgb(17,17,17) }
+:root{ scrollbar-color: rgb(40,40,40) rgb(17,17,17) }
 
 *{ scrollbar-width: thin }
