@@ -3,7 +3,7 @@ minimal userChrome.css Windows frendly version
 
 Hi everyone, 
 
-This is my modified version of https://github.com/turing753/myuserchrome minimal user minimal userChrome.css.
+This is my modified version of https://github.com/turing753/myuserchrome minimal userChrome.css.
 
 The objective of this version is to be a bit more Microsoft Windows friendly while still perseving as much as possible the original look. 
 
@@ -16,7 +16,7 @@ Some of modifications/ideas of this version are:
 
 What is changed:
 
-+ Added thin scroll bar instead of the originally being hidden.
++ Added thin dark themed scroll bar instead of the originally hidden setting.
 
 + Change some padding to make it look more natural on windows. 
 
@@ -25,6 +25,10 @@ What is changed:
 + Inverted the URL Barl / Tab bar order due the Windows minimize/maximize/close being not at the corner of the program.
 
 + Tabs start now closer to the top right corner and have different height and width rules.
+
++ Added dark Windows 10 context menus by Mlch431(https://github.com/M1ch431/FirefoxW10ContextMenus/tree/compact .
+
++ Link preview background is now dark themed.
 
 Problems to be fixed: 
 
