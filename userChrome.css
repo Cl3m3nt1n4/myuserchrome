@@ -7,8 +7,8 @@ window#main-window {
     --backbutton-background: none !important;
     --arrowpanel-background: #111111 !important;
     --arrowpanel-border-color: #111111 !important;
-
     --lwt-sidebar-background-color: #111111 !important;
+	margin: 10px 2px 0px 2px !important;
 }  
 textbox {
     background-color: #111111 !important;
@@ -28,6 +28,7 @@ textbox {
 :root:not([uidensity="compact"]):not([chromehidden~="toolbar"]) #nav-bar[brighttext] > #PanelUI-button {
     border-image-source: linear-gradient(transparent, transparent) !important;
 }
+
 #urlbar,
 #searchbar {
     border: none !important;
@@ -45,9 +46,7 @@ textbox {
 .tab-line {
     height: 0 !important;
 }
-.close-icon {
-    display: none !important;
-}
+
 #page-action-buttons>*:not(#star-button-box),
 .urlbar-history-dropmarker {
     opacity: 0 !important;
@@ -71,7 +70,7 @@ tab,
 tree,
 .tree-rows {
     font-family: 'Consolas', monospace !important;
-    font-size: 11pt !important;
+    font-size: 11t !important;
     font-weight: bold;
     font-style: normal !important;
     -moz-appearance: none !important;
@@ -111,7 +110,7 @@ tree,
     box-shadow: none !important;
     background-color: #111111 !important;
     font-family: 'Consolas', monospace !important;
-    font-size: 11pt !important;
+    font-size: 10pt !important;
 }
 .urlbarView-favicon {
     display: none !important;
@@ -119,7 +118,7 @@ tree,
 .urlbarView-row[selected] {
     background: #c33dab !important;
     color: #111111 !important;
-    fill-opacity: 1 !important;;
+    fill-opacity: 1 !important;
 }
 .sidebar-splitter {
 
@@ -132,7 +131,7 @@ tree,
 .tabbrowser-tab[first-visible-tab]::before{
   content: "";
   display: -moz-box;
-  border-left: -1px !important;
+  border-left: 0px !important;
   margin: 0 !important;
   opacity: 0.3;
  }
@@ -145,7 +144,7 @@ tree,
   height: 30px !important;
  }
 :root{
-  --uc-menu-bkgnd: rgb(74,74,79);
+  --uc-menu-bkgnd: rgb(17,17,17);
   --uc-menu-color: rgb(230,230,230);
   --uc-menu-dimmed: rgba(255,255,255,0.1);
   --uc-menu-disabled: rgb(50,50,50);
@@ -276,4 +275,23 @@ statuspanel .statuspanel-label {
   border: 1px none #111111 !important;
   border-top-style: solid !important;
   color: white !important;
+}
+
+/* This moves the tabs under the URL bar */
+#titlebar {
+    -moz-box-ordinal-group: 3 !important;
+  }
+  
+  
+/* Always show tab close button on hover and never otherwise */
+.tabbrowser-tab .tab-close-button{
+  display:none;
+}
+.tabbrowser-tab:not([pinned]):hover .tab-close-button{
+  display:-moz-box !important;
+}
+
+
+#titlebar {
+	margin-top: -10px !important;
 }
