@@ -1,4 +1,4 @@
-minimal userChrome.css Windows frendly version
+minimal userChrome.css Windows friendly version
 ============
 
 Hi everyone, 
@@ -16,27 +16,25 @@ Some of modifications/ideas of this version are:
 
 What is changed:
 
-+ Added thin dark themed scroll bar instead of the originally hidden setting.
++ Added thin dark/grey themed scroll bar instead of the originally hidden setting.
 
 + Change some padding to make it look more natural on windows. 
 
-+ Changed Font Family in order to get the bold monospace look like the original. Changed font size as well
++ Changed Font Family in order to get the bold monospace look like the original. Changed font size as well.
 
-+ Inverted the URL Barl / Tab bar order due the Windows minimize/maximize/close being not at the corner of the program.
++ Tabs start now closer to the top left corner and have different height and width rules.
 
-+ Tabs start now closer to the top right corner and have different height and width rules.
-
-+ Added dark Windows 10 context menus by Mlch431(https://github.com/M1ch431/FirefoxW10ContextMenus/tree/compact .
++ Added dark context menu.
 
 + Link preview background is now dark themed.
+
++ Added close tab button on hover. 
+
++ All buttons are now dots unless on hover.
 
 Problems to be fixed: 
 
 + When on windowed mode at the top left appears a white line. 
 
-Possible future changes: 
 
-+ Removing http/https to make links loke more simple (similar to Chrome aproach).
-
-
-
+Note: Please keep in mind that all changes are updated to Github without much testing since I like to see a proper changelog. 
