@@ -16,7 +16,7 @@ Some of modifications/ideas of this version are:
 
 What is changed:
 
-+ Added thin dark/grey themed scroll bar instead of the originally hidden setting.
++ Added thin dark themed scroll bar instead of the originally hidden setting.
 
 + Change some padding to make it look more natural on windows. 
 
@@ -32,9 +32,13 @@ What is changed:
 
 + All buttons are now dots unless on hover.
 
++ Pinned tabs now show icon. (On the original css they don't make impossible to use such feature)
+
 Problems to be fixed: 
+
++ When changing the order of the tabs by draging them they move out of the place.
 
 + When on windowed mode at the top left appears a white line. 
 
 
-Note: Please keep in mind that all changes are updated to Github without much testing since I like to see a proper changelog. 
+Note: Please keep in mind that all changes are merged to Github without much testing since I treat this as a alpha project. 
