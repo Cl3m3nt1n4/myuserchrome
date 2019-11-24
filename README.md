@@ -30,8 +30,6 @@ What is changed:
 
 + Added close tab button on hover. 
 
-+ All buttons are now dots unless on hover.
-
 + Pinned tabs now show icon. (On the original css they don't make impossible to use such feature)
 
 Problems to be fixed: 
