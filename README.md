@@ -34,8 +34,6 @@ What is changed:
 
 Problems to be fixed: 
 
-+ When changing the order of the tabs by draging them they move out of the place.
-
 + When on windowed mode at the top left appears a white line. 
 
 
