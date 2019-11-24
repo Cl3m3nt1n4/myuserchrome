@@ -77,7 +77,6 @@ tree,
 }
 #navigator-toolbox {
     --tabs-border-color: none !important;;
-
 }
 .tabbrowser-tab::before,
 .tabbrowser-tab::after {
@@ -101,8 +100,7 @@ tree,
 .chromeclass-location {
     border: none !important;
     box-shadow: none !important;
-    background-image: none !important;
-    
+    background-image: none !important;   
 }
 .urlbarView:not(.megabar) {
     box-shadow: none !important;
@@ -119,7 +117,6 @@ tree,
     fill-opacity: 1 !important;
 }
 .sidebar-splitter {
-
     -moz-appearance: none;
     border: none !important;
 }     
@@ -134,12 +131,12 @@ tree,
   opacity: 0.3;
  }
 .tabbrowser-tab[fadein]:not([pinned]) {
-    max-width: 180px !important;
+    max-width: 185px !important;
  }
 #tabbrowser-tabs {
-  --tab-min-height: 30px !important;
+  --tab-min-height: 33px !important;
   margin-left: 0px !important;
-  height: 30px !important;
+  height: 33px !important;
  }
  
 /* Tab bar Windows Fix */
@@ -157,68 +154,11 @@ tree,
   display:-moz-box !important;
 }
 
-/* Buttons show on hover */
+/* Removes Window Decorations*/
 
-#urlbar-container:hover ~ .toolbarbutton-1:not([open]),
-#urlbar-container:hover ~ #stop-reload-button > .toolbarbutton-1,
-#nav-bar > #nav-bar-customization-target:hover ~ toolbarbutton:not([open]),
-#nav-bar > #nav-bar-customization-target:hover ~ toolbaritem:not([open]) > .toolbarbutton-1,
-toolbar .toolbarbutton-1:not([open]),
-.titlebar-button,
-#tabbrowser-tabs toolbarbutton,
-toolbarbutton.scrollbutton-up[orient="horizontal"],
-toolbarbutton.scrollbutton-down[orient="horizontal"]{
-  background-image: radial-gradient(circle at center, var(--lwt-toolbarbutton-icon-fill,currentColor) 0,var(--lwt-toolbarbutton-icon-fill,currentColor) 10%,transparent 15% );
+.titlebar-buttonbox-container{ 
+	display: none !important 
 }
-toolbar:hover + toolbar .toolbarbutton-1,
-vbox:hover + toolbar .toolbarbutton-1,
-toolbar:hover .toolbarbutton-1,
-#tabbrowser-tabs:hover toolbarbutton,
-toolbarbutton.scrollbutton-up[orient="horizontal"]:hover,
-toolbarbutton.scrollbutton-down[orient="horizontal"]:hover,
-.titlebar-buttonbox:hover > .titlebar-button{ background-image: none; }
-
-#urlbar-container:hover ~ .toolbarbutton-1:not([open]) > *,
-#urlbar-container:hover ~ #stop-reload-button > .toolbarbutton-1 > *,
-#nav-bar > #nav-bar-customization-target:hover ~ toolbarbutton:not([open]) > *,
-toolbar .toolbarbutton-1 > *,
-.titlebar-button > *,
-#tabbrowser-tabs toolbarbutton > *,
-toolbarbutton.scrollbutton-up[orient="horizontal"] > .toolbarbutton-icon,
-toolbarbutton.scrollbutton-down[orient="horizontal"] > .toolbarbutton-icon{
-  transform: scale(0);
-  transition: transform 82ms linear !important;
-}
-
-toolbar:hover .toolbarbutton-1:not(#PanelUI-menu-button) > *,
-#nav-bar-overflow-button:hover + #PanelUI-button > .toolbarbutton-1 > stack,
-#PanelUI-menu-button:hover > stack,
-#titlebar:hover ~ toolbar .toolbarbutton-1 > *,
-.toolbarbutton-1[open] > *,
-.titlebar-buttonbox:hover > .titlebar-button > *,
-#tabbrowser-tabs:hover toolbarbutton > *,
-toolbarbutton.scrollbutton-up[orient="horizontal"]:hover > .toolbarbutton-icon,
-toolbarbutton.scrollbutton-down[orient="horizontal"]:hover > .toolbarbutton-icon{
-  transform: scale(1)
-}
-
-.urlbar-icon{ transition: transform 82ms linear !important; }
-#urlbar:not(:hover) .urlbar-icon:not([open]){ transform: scale(0.3) }
-
-#PanelUI-button{ border-left: 0px !important; margin-left: 0px !important; }
-
-#nav-bar:not(:hover) > #PanelUI-button > #PanelUI-menu-button[badge-status],
-#navigator-toolbox:not(:hover) #downloads-button[attention]{
-  filter: brightness(2) drop-shadow(0 0 3px orange) drop-shadow(0 0 1px orange);
-}
-#nav-bar:not(:hover) > #PanelUI-button > #PanelUI-menu-button[badge-status^="update"],
-#navigator-toolbox:not(:hover) #downloads-button[attention="success"]{
-  filter: brightness(2) drop-shadow(0 0 2px cyan) drop-shadow(0 0 1px cyan);
-}
-
-/* Hide show panel in fullscreen*/
-
-:root[inDOMFullscreen] #statuspanel{ display: none !important }
 
 /* Dark Show Panel*/ 
 
@@ -269,7 +209,7 @@ statuspanel .statuspanel-label {
 #customizationPaletteItemContextMenu menupopup,
 #customization-toolbar-menu menupopup {
     -moz-appearance: none !important;
-    background: #171928 !important;
+    background: #0A0A0A !important;
     border: none !important;
     border-radius: 3px !important;
     margin: 0px 0 0 0 !important;
