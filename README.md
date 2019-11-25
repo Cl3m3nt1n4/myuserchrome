@@ -9,8 +9,6 @@ The objective of this version is to be a bit more Microsoft Windows friendly whi
 
 ![alt text](https://raw.githubusercontent.com/Cl3m3nt1n4/myuserchrome/master/readme%20content/print0.png)
 
-![alt text](https://raw.githubusercontent.com/Cl3m3nt1n4/myuserchrome/master/readme%20content/print1.png)
-
 
 Some of modifications/ideas of this version are:
 
