@@ -1,22 +1,13 @@
 /* Removes white loading page */
 
-@-moz-document url(about:blank), url(about:newtab), url(about:home) {
+@-moz-document url("about:home"),url("about:blank"),url("about:newtab"),url("about:privatebrowsing") {
     html:not(#ublock0-epicker), html:not(#ublock0-epicker) body, #newtab-customize-overlay {
       background: #1d2021 !important;
     }
   }
   
+/* Scrollbar */
 
-  /* Hide scrollbar */
-  
-  :root{
-    scrollbar-width: none !important;
-  }
-  }
-  
-  @-moz-document url(about:privatebrowsing) { 
-  
-  :root{
-    scrollbar-width: none !important;
-  }
-  }
+@namespace url("http://www.w3.org/1999/xhtml");
+:root{ scrollbar-color: rgb(210,210,210) rgb(42,42,46) }
+*{ scrollbar-width: thin }
