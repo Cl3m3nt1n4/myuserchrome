@@ -18,17 +18,13 @@ What is changed:
 
 + Change some padding to make it look more natural on windows. 
 
-+ Changed Font Family in order to get the bold monospace look like the original. Changed font size as well.
-
 + Tabs start now closer to the top left corner and have different height and width rules.
 
 + Added dark context menu.
 
 + Link preview background is now dark themed.
 
-+ Added close tab button on hover. 
-
-+ Pinned tabs now show icon. (On the original css they don't make impossible to use such feature)
++ Added close tab button on hover (replaces fav icon). 
 
 Problems to be fixed: 
 
