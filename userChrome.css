@@ -222,6 +222,16 @@ tree,
 	padding-top: 6px !important; 
 }
 
+/* Dark Show Panel*/ 
+
+#statuspanel #statuspanel-label,
+statuspanel .statuspanel-label {
+  background-color: #111111 !important;
+  border: 1px none #111111 !important;
+  border-top-style: solid !important;
+  color: white !important;
+}
+
 /* Dark Context Menu*/
 
 #toolbar-context-menu,
