@@ -77,7 +77,7 @@ tab,
 tree,
 .tree-rows {
     font-family: 'Hack', sans-serif !important;
-    font-size: 12pt !important;
+    font-size: 8pt !important;
     font-weight: regular;
     font-style: normal !important;
     -moz-appearance: none !important;
@@ -123,7 +123,7 @@ tree,
     box-shadow: none !important;
     background-color: #0c0c0c !important;
     font-family: 'Hack', sans-serif !important;
-    font-size: 11pt !important;
+    font-size: 8pt !important;
 }
 .urlbarView-favicon {
     display: none !important;
@@ -220,16 +220,6 @@ tree,
 	padding-left: 6px !important;
 	padding-right: 6px !important;
 	padding-top: 6px !important; 
-}
-
-/* Dark Show Panel*/ 
-
-#statuspanel #statuspanel-label,
-statuspanel .statuspanel-label {
-  background-color: #111111 !important;
-  border: 1px none #111111 !important;
-  border-top-style: solid !important;
-  color: white !important;
 }
 
 /* Dark Context Menu*/
