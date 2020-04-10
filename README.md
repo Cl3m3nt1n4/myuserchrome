@@ -1,6 +1,11 @@
 minimal userChrome.css Windows friendly version
 ============
 
+UPDATE: This is no longer supported. 
+============
+If you want to use it as is it made and working on Firefox 71 and 70 only, anthing after will need modifications since Firefox 72 broke a lot of stuff.
+
+
 Hi everyone, 
 
 This is my modified version of https://github.com/turing753/myuserchrome minimal userChrome.css.
